@@ -15,6 +15,6 @@ function generateButtons() {
     for (let i = 1; i <= buttonsNo; ++i) {
         document.getElementById('showButtons').innerHTML += `
         <button type="button" class="btn btn-primary" onclick="checkWinOrLoose()">${i}</button>
-        `
+        `;
     }
 }
